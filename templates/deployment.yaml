@@ -33,8 +33,8 @@ spec:
             - name: REDIS_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Values.redis.password.secret.name }}
-                  key: {{ .Values.redis.password.secret.key }}
+                  name: {{ .Values.redis.service.password.secret.name }}
+                  key: {{ .Values.redis.service.password.secret.key }}
           ports:
             - name: http
               containerPort: 8081
