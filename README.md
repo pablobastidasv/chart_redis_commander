@@ -2,7 +2,7 @@
 
 **Redis commander** is management tool written in node.js for Redis.
 
-To get more information about Redis commander go to (its web page)[https://joeferner.github.io/redis-commander/]
+To get more information about Redis commander go to [its web page](https://joeferner.github.io/redis-commander/)
 
 ## Installing the Chart
 
@@ -28,7 +28,7 @@ To install the chart with the release name `my-release`:
 $ helm install . --name my-release
 ```
 
-The command deploys **(redis-commander)[https://joeferner.github.io/redis-commander/]** on the Kubernetes cluster with the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
+The command deploys **[redis-commander](https://joeferner.github.io/redis-commander/)** on the Kubernetes cluster with the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
 
 ## Uninstalling the Chart
 
